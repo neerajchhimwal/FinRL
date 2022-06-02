@@ -235,6 +235,7 @@ class DRLEnsembleAgent:
             stock_dim,
             hmax,
             initial_amount,
+            num_stock_shares,
             buy_cost_pct,
             sell_cost_pct,
             reward_scaling,
@@ -257,6 +258,7 @@ class DRLEnsembleAgent:
         self.stock_dim = stock_dim
         self.hmax = hmax
         self.initial_amount = initial_amount
+        self.num_stock_shares = num_stock_shares
         self.buy_cost_pct = buy_cost_pct
         self.sell_cost_pct = sell_cost_pct
         self.reward_scaling = reward_scaling
@@ -289,6 +291,7 @@ class DRLEnsembleAgent:
                     self.stock_dim,
                     self.hmax,
                     self.initial_amount,
+                    self.num_stock_shares,
                     self.buy_cost_pct,
                     self.sell_cost_pct,
                     self.reward_scaling,
@@ -429,6 +432,7 @@ class DRLEnsembleAgent:
                         self.stock_dim,
                         self.hmax,
                         self.initial_amount,
+                        self.num_stock_shares,
                         self.buy_cost_pct,
                         self.sell_cost_pct,
                         self.reward_scaling,
@@ -485,6 +489,7 @@ class DRLEnsembleAgent:
                         self.stock_dim,
                         self.hmax,
                         self.initial_amount,
+                        self.num_stock_shares,
                         self.buy_cost_pct,
                         self.sell_cost_pct,
                         self.reward_scaling,
@@ -533,6 +538,7 @@ class DRLEnsembleAgent:
                         self.stock_dim,
                         self.hmax,
                         self.initial_amount,
+                        self.num_stock_shares,
                         self.buy_cost_pct,
                         self.sell_cost_pct,
                         self.reward_scaling,
@@ -584,6 +590,7 @@ class DRLEnsembleAgent:
                         self.stock_dim,
                         self.hmax,
                         self.initial_amount,
+                        self.num_stock_shares,
                         self.buy_cost_pct,
                         self.sell_cost_pct,
                         self.reward_scaling,
